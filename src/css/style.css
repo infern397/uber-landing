@@ -176,42 +176,30 @@ nav {
     line-height: 48px;
     margin: 0;
     margin-top: 33px;
-    margin: 33px 0 16px;
+    margin: 33px 0 0;
 }
 
 .benefits_card {
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 35px;
 }
 
-.benefits_card:nth-last-child(n + 2) {
-    height: 150px;
-    margin-bottom: 26px;
-}
-
-.benefits_card:nth-last-child(n + 2) .card_img-block {
-    top: 50%;
-    transform: translateY(-50%);
-}
 
 .card_img-block {
-    position: relative;
-    
-    min-width: 116px;
-    height: 116px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    width: 113px;
+    height: 113px;
     background-color: #1eacc7;
-    border-radius: 50%;
+    border-radius: 100%;
 }   
 
-.card_img-block img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 .card_text {
-    max-width: 371px;
-    padding-left: 25px;
+    width: 343px;
     line-height: 21px; /* 123.529% */
 }
 .card_text-title {
